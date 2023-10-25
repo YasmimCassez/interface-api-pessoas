@@ -1,0 +1,95 @@
+.Tudo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input {
+    background-color:rgb(189, 189, 189);
+
+    border: solid 0px;
+    border-radius: 17.9px;
+}
+
+input::placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.4em black;
+}
+
+#nome-pessoa {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+#endereco {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.dois-inputs {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100.74%;
+    margin-bottom: 20px;
+}
+
+#data, #cpf {
+    width: 46%;
+    height: 32px;
+   
+}
+
+#peso {
+    width: 70%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+#altura {
+    width: 27%;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+#N {
+    width: 10%;
+    height: 32px;
+}
+
+#Telefone {
+    width: 88%;
+    height: 32px;
+}
+
+button {
+width:30%;
+height: 35px;
+ border-radius: 18px;
+ border: solid 0px;
+ color: aliceblue;
+ background-color: rgb(245, 91, 91);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-bottom: 20px;
+}
+
+img {
+    width: 25%;
+    height: 90px;
+}
+
+
+.cadastrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
