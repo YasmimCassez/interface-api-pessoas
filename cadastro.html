@@ -11,30 +11,32 @@
 <body>
     <h1>Cadastro Obrigatório</h1>
     <div class="Tudo">
-            <input class="b" type="text" name="" id="nome-pessoa" placeholder="Nome completo:">
+        <form>
+            <input class="b" type="text" name="" id="nome-pessoa" placeholder="Nome completo:" required>
             <div class="dois-inputs">
-                <input type="date" name="" id="data" placeholder="Data de Nascimento:">
-                <input type="number" name="" id="cpf" placeholder="CPF:">
+                <input type="date" name="" id="data" placeholder="Data de Nascimento:" required>
+                <input type="number" name="" id="cpf" placeholder="CPF:" required>
             </div>
-            <input type="text" name="" id="endereco" placeholder="Endereço:">
+            <input type="text" name="" id="endereco" placeholder="Endereço:" required>
             <div class="dois-inputs">
-                <input type="number" name="" id="N" placeholder="Nº">
-                <input type="text" name="" id="Telefone" placeholder="Telefone para contato:">
+                <input type="number" name="" id="N" placeholder="Nº" required>
+                <input type="text" name="" id="Telefone" placeholder="Telefone para contato:" required>
             </div>
             <div class="dois-inputs">
-                <input type="number" name="" id="altura" placeholder="Altura:">
-                <input type="number" name="" id="peso" placeholder="Peso:">
+                <input type="number" name="" id="altura" placeholder="Altura:" required>
+                <input type="number" name="" id="peso" placeholder="Peso:" required>
             </div>
 
-        <div class="cadastrar">
-            <button onclick="cadastrar()">CADASTRAR:</button>
-            <img src="WhatsApp Image 2023-10-25 at 08.44.04.jpeg">
-        </div>
 
+            <div class="cadastrar">
+                <button onclick="cadastrar()">CADASTRAR:</button>
+                <img src="WhatsApp Image 2023-10-25 at 08.44.04.jpeg">
+            </div>
+        </form>
     </div>
 
     <script src="main.js"></script>
-    <script src="./kk.js/requests.js"></script>
+    <script src="js/requests.js"></script>
 </body>
 
 </html>
